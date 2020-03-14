@@ -1,0 +1,316 @@
+/* Gloabal CSS Start */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Sanss-serif';
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.row {
+    width: 100%;
+    float: left;
+}
+.col-md-12 {
+    width: 100%;
+    float: left;
+}
+.col-md-4 {
+    width: 33.33%;
+    float: left;
+}
+.col-md-6 {
+    width: 50%;
+    float: left;
+}
+.title {
+    color: #2d3950;
+    font-size: 53px;
+    line-height: 60px;
+    font-weight: 400;
+}
+
+/* Gloabal CSS End */
+
+/* Header Area CSS Start */
+.header-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 28px 0px;
+}
+.logo {
+    width: 100%;
+    float: left;
+}
+/* Header Area CSS End */
+
+/* Banner Area CSS Start */
+.banner-section {
+    width: 100%;
+    float: left;
+    padding: 30px 0px;
+    text-align: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-inner {
+    width: 100%;
+    float: left;
+    padding: 90px 0px 10px;
+}
+.banner-inner h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+.banner-inner .divider {
+    width: 40%;
+    height: 2px;
+    background: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.banner-inner p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 35px;
+}
+.btn {    
+    color: #fff;
+    background: transparent;
+    padding: 12px 30px;
+    border: 1px solid #15a4fa;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn:hover {
+    background: #15a4fa;
+    color: #fff;
+    border: 1px solid #15a4fa;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+.banner-inner .arrow {
+    width: 100%;
+    float: left;
+    margin-top: 160px;
+}
+/* Banner Area CSS End */
+
+/* Simple Area CSS Start */
+.simple-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+.simple-inner {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.simple-inner h1 {
+    margin-bottom: 15px;
+}
+.simple-inner p {
+    color: #999999;
+    font-size: 23px;
+    line-height: 35px;
+    font-weight: 400;
+}
+/* Simple Area CSS End */
+
+/* Feature Area CSS Start */
+.feature-section {
+    width: 100%;
+    float: left;
+    background: #ffffff;
+    padding: 80px 0px;
+}
+.feature-inner {
+    width: 95%;
+    float: left;
+    text-align: center;
+    padding: 10px 20px;
+}
+.feature-inner img {
+    margin-bottom: 15px;
+}
+.feature-inner h4 {
+    color: #2d3950;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+}
+.feature-inner p {
+    color: #999999;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+/* Feature Area CSS End */
+
+/* Portfolio Area CSS Start */
+.portfolio-section {
+    width: 100%;
+    float: left;
+    background: #f6f9f9;
+    padding: 80px 0px;
+}
+.portfolio-header {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.portfolio-header h1 {}
+.portfolio-header p {   
+     color: #999999;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.portfolio-inner {
+    width: 95%;
+    float: left;
+    margin-top: 25px;
+}
+.portfolio-inner .img {
+    width: 100%;
+    position: absolute;
+}
+.portfolio-inner .hove {
+    width: 100%;
+    float: left;
+   
+    height: 260px;
+    top: 0;
+    position: relative;
+}
+
+.portfolio-inner .hove:hover {
+    background: #2cacf7;
+    opacity: 0.8;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+/* Portfolio Area CSS End */
+
+
+/* Contact Area CSS Start */
+.contact-section {
+    width: 100%;
+    float: left;
+    background: #2c364a;
+    padding: 80px 0px;
+}
+.contact-header {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.contact-header h1 {
+    color: #fff;
+}
+.contact-header p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background: #2c364a;
+    margin-bottom: 15px;
+  }
+  .contact-form label {
+      color: #fff;
+  }
+  .contact-form a {
+    padding: 7px 25px;
+    float: right
+  }
+
+  
+/* Contact Area CSS End */
+
+
+/* Footer Area CSS Start */
+.footer-section {
+    width: 100%;
+    float: left;
+    padding: 40px 0px;
+}
+.footer-inner {
+    width: 100%;
+    float: left;
+}
+.footer-left {
+    float: left;
+    padding-top: 11px;
+}
+.footer-left p {
+    color: #999999;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.footer-right {
+    float: right;
+    padding-top: 2px;
+}
+.footer-right i {
+    padding-left: 5px;
+    color: #15a4fa;
+    font-size: 35px;
+}
+.footer-right i:hover {
+    color: blue;
+}
+/* Footer Area CSS End */
+
+.icon {}
+.icon a {}
+.icon a i {}
